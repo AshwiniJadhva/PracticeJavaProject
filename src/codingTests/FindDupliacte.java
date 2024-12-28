@@ -16,6 +16,7 @@ public class FindDupliacte {
 				if(arr[index]==arr[innerIndex]) {
 					duplicateArray[count] = arr[innerIndex];
 					count++;
+					break;
 				}
 					
 			}
